@@ -1,0 +1,54 @@
+Here is an incomplete list of areas to cover with "challenges":
+
+INSTALLATION
+
+- Hello World
+- REPL
+- Command-line scripting
+- Compiled
+- Multifile/Modules
+  - Import a module from a REPL
+  - Import a module from a file
+- IDE
+- Editor with syntax highlighting, indentation, file recognition, etc.
+- Minimum to run program on a "fresh computer"
+- Running program on various platforms
+
+GUI TOOLKIT
+
+- Hello World window
+- Subpanels resize predictably as window is resized
+- Buttons - events
+- Double-clicking
+- Widgets
+- Drag and Drop (in application)
+- Drag and Drop (an external file onto window)
+
+LANGUAGE
+
+- Basic datatypes
+- Collections
+- Flow control
+- Functions
+- OOP features
+- Functional features
+- Exceptions
+- Macros / Preprocessor
+- Threads + actors
+- Parallelism
+- File I/O
+- Manipulate system directories
+- XML
+- Regular Expressions
+
+OTHERS
+
+- SVG
+- Web frameworks
+- Networking
+- Launching / communicating with external programs
+- Websites for language documentation and support
+- How to link libraries
+- Where to get libraries
+- Implementation of important algorithms
+- Database
