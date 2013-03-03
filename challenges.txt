@@ -18,7 +18,7 @@
     be uncompiled when you execute the command.  The program should
     print "Hello, World!" to the screen.
 
-[zz_compileToBytecode
+[zz_compileToBytecode]
     Covers: Compilation
     Challenge: Write a program in a single file which prints the string
     "Hello, World!" to the screen.  Compile it to intermediate bytecode
