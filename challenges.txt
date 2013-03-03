@@ -1,0 +1,107 @@
+[zz_helloworld]
+    Covers: Installation, running a command, print.
+    Challenge: Install an implementation of your programming language
+      and write a snippet of code that when executed, prints the
+      words "Hello, World!" to the screen.  You can do this in an
+      interpreter, in a script, or in a compiled program (whatever
+      you like.)
+
+[zz_repl]
+    Covers: REPL
+    Challenge: Install a REPL for your programming language and
+      use it to execute a command that calculates the sum of 2 and 3.
+
+[zz_script]
+    Covers: Scripting
+    Challenge: Write a program in a single file, and execute that
+    program (script) from the command line.  The program should
+    be uncompiled when you execute the command.  The program should
+    print "Hello, World!" to the screen.
+
+[zz_compileToBytecode
+    Covers: Compilation
+    Challenge: Write a program in a single file which prints the string
+    "Hello, World!" to the screen.  Compile it to intermediate bytecode
+    and run it with a virtual machine which reads that bytecode.  Note
+    that languages that normally compile directly to machine code may
+    not be able to complete this challenge (as they don't need to!).
+
+[zz_standaloneCompile]
+    Covers: Compilation
+    Challenge: Write a program in a single file, compile that program,
+    and run it from the command line.  The program should be executed
+    without the help of any other program, the compiled file should
+    simply be made executable, and run.  The program should print
+    "Hello, World!" to the screen.
+
+[zz_portable]
+    Covers: Portability
+    Challenge: Write a program to a file that prints "Hello, World!" to
+    the screen.  Create a minimal package that you can zip into a
+    single file, and get someone on a "fresh" computer, that knows
+    nothing about your programming language, to execute your program.
+    The package should contain a README file with directions.  In some
+    cases it might be necessary to download something big from the web,
+    if so, give detailed directions.  You may have different solutions
+    for various operating systems.
+
+[zz_onlineLanguageDocumentation]
+    Covers: Documentation
+    Challenge: Find online sources for language documentation.  This
+    may include the language spec, a free user guide, free online books,
+    important library documentation, anything that might be useful
+    as REFERENCE for learning the language.  Perhaps the best way
+    to represent this might be a single HTML page with links, and
+    descriptions of each link.
+
+[zz_onlineLearning]
+    Covers: Learning the Language
+    Challenge: Find online sources for learning the language.  This
+    may include tutorials, free online books, FAQs, blog posts, etc.,
+    with all sources intended to be read cover-to-cover (as opposed
+    to reference guides), although some sources may be suitable both
+    for learning and for documentation.
+
+[zz_ide]
+    Covers: IDE
+    Challenge: Download and install an IDE for writing programs in
+    your chosen language.  Summarize basic installation, and key
+    features of any IDEs that you want to mention.  Start with any
+    IDE, but feel free to add more.
+
+[zz_editor]
+    Covers: Text editors
+    Challenge: Discover how to set up a popular editor that you might
+    want to use to develop programs in your chosen language.  This
+    usually entails syntax highlighting, indentation, file recognition,
+    and script execution.  Include any config file modifications that
+    you want to use.
+
+[zz_multifileRepl]
+    Covers: Modules
+    Challenge: From a REPL for your program, load a definitions file
+    in your language (for example, a program containing some variables
+    or functions).  Use the loaded definitions immediately afterwards
+    in the REPL.
+
+[zz_multifileCommandLine]
+    Covers: Modules
+    Challenge: Write a program with at least two modules (files), where
+    one file uses data from another file.  Execute the program from
+    the command line (as a script, or compiled).  Make sure that the
+    program processes code from both files.
+
+[zz_librariesProvided]
+    Covers: Libraries
+    Challenge: Write and execute a program that uses libraries.  For
+    this challenge, these libraries are not written by you, but can
+    (if you like) be included in the distribution of the programming
+    language, as long as they are not part of the core language, and
+    require importing.
+
+[zz_libraries3rdParty]
+    Covers: Libraries
+    Challenge: Download and install a 3rd party library for your
+    language.  Write a program that uses this library, and execute
+    it successfully.
+
