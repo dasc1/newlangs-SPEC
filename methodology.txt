@@ -3,7 +3,11 @@ newlangs-SPEC Methodology
 
 The purpose of this project is to create a checklist of "challenges"
 that a student of any general-purpose programming language can perform
-to learn that language thoroughly.
+to learn that language thoroughly.  The focus should be not on the
+language details themselves (these will vary considerably from language
+to language), but instead on the "final product", what the language
+can actually do.  This will include installation, development
+environment, tools, I/O, and libraries.
 
 The challenges are defined to require basic knowledge of specific areas
 of the language.  The full set of challenges should ideally cover every
@@ -18,33 +22,39 @@ from the list, or the challenges might be reordered, or split into
 several checklists, but these challenge names will remain the same.
 
 A student can attempt the challenges in a particular programming
- language.  Let's say the student chooses Python.  He/she will create
- a base folder (and probably create a github repo to put it in).  Inside
- that folder will be a series of subfolders, each bearing the unique
- name of one of the challenges that the student has implemented.  Inside
- that folder should be a "README.txt" file that describes the other
- contents of the folder, and how exactly to implement the solution to
- the challenge with these contents.
+language.  Let's say the student chooses Python.  He/she will create
+a base folder (and probably create a github repo to put it in).  Inside
+that folder will be a series of subfolders, each bearing the unique
+name of one of the challenges that the student has implemented.  Inside
+that folder should be a "README.txt" file that describes the other
+contents of the folder, and how exactly to implement the solution to
+the challenge with these contents.
 
 In some cases, a language will be unable to complete one of the
- challenges.  For example, our student will likely be unable to compile
- python scripts into a machine executable file.  In that case, the
- student creates the challenge directory anyway, and simply describes
- the reason why that language cannot complete the challenge inside the
- "README.txt" file.
+challenges.  For example, our student will likely be unable to compile
+python scripts into a machine executable file.  In that case, the
+student creates the challenge directory anyway, and simply describes
+the reason why that language cannot complete the challenge inside the
+"README.txt" file.
 
 Another issue arises when there are several frameworks or toolkits that
- can conquer the challenge for a particular language.  This should be
- expected with graphical toolkits or web frameworks.  In this case,
- create a subfolder (of the base "Python" folder) for each
- toolkit/framework, and put a set of solution files in each one.
+can conquer the challenge for a particular language.  This should be
+expected with graphical toolkits or web frameworks.  In this case,
+create a subfolder (of the base "Python" folder) for each
+toolkit/framework, and put a set of solution files in each one.
+
+As well as the tests, there should be a folder "aa_HOWTO" containing
+a mini website with tips and tricks for that language.  These can
+be on any related topic, including the language itself, idioms,
+techniques, etc.
 
 All test names should start with "zz_", so that when folders containing
- tests are sorted, the test folders will be at the bottom, separated
- from the framework/toolkit folders.  So a sample Python folder tree
- might look like:
+tests are sorted, the test folders will be at the bottom, separated
+from the framework/toolkit folders.  So a sample Python folder tree
+might look like:
 
 Python\
+    aa_HOWTO\
     django-web\
         zz_hwweb\
         zz_forms1\
@@ -58,9 +68,9 @@ Python\
     zz_repl1\
 
 Eventually this project should include a script, which you can run in
- the base directory of a language folder, and it will produce a report
- of checklist coverage, according to the "current" checklist (provided
- as file(s) to the script).
+the base directory of a language folder, and it will produce a report
+of checklist coverage, according to the "current" checklist (provided
+as file(s) to the script).
 
 The github repositories for language folder associated with this
 project should conform to a consistent naming convention, i.e.:
